@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7386E87028E3662C00366B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E86F28E3662C00366B3B /* AppDelegate.swift */; };
+		7386E87228E3662C00366B3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E87128E3662C00366B3B /* SceneDelegate.swift */; };
+		7386E87428E3662C00366B3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E87328E3662C00366B3B /* ViewController.swift */; };
+		7386E87728E3662C00366B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7386E87528E3662C00366B3B /* Main.storyboard */; };
+		7386E87928E3663100366B3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7386E87828E3663100366B3B /* Assets.xcassets */; };
+		7386E87C28E3663100366B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7386E87A28E3663100366B3B /* LaunchScreen.storyboard */; };
+		7386E88728E3663100366B3B /* prueba_coppelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E88628E3663100366B3B /* prueba_coppelTests.swift */; };
+		7386E89128E3663200366B3B /* prueba_coppelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E89028E3663200366B3B /* prueba_coppelUITests.swift */; };
+		7386E89328E3663200366B3B /* prueba_coppelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E89228E3663200366B3B /* prueba_coppelUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7386E88328E3663100366B3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7386E86428E3662C00366B3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7386E86B28E3662C00366B3B;
+			remoteInfo = "prueba-coppel";
+		};
+		7386E88D28E3663200366B3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7386E86428E3662C00366B3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7386E86B28E3662C00366B3B;
+			remoteInfo = "prueba-coppel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7386E86C28E3662C00366B3B /* prueba-coppel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "prueba-coppel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7386E86F28E3662C00366B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7386E87128E3662C00366B3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7386E87328E3662C00366B3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7386E87628E3662C00366B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7386E87828E3663100366B3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7386E87B28E3663100366B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7386E87D28E3663100366B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7386E88228E3663100366B3B /* prueba-coppelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "prueba-coppelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7386E88628E3663100366B3B /* prueba_coppelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prueba_coppelTests.swift; sourceTree = "<group>"; };
+		7386E88C28E3663200366B3B /* prueba-coppelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "prueba-coppelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7386E89028E3663200366B3B /* prueba_coppelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prueba_coppelUITests.swift; sourceTree = "<group>"; };
+		7386E89228E3663200366B3B /* prueba_coppelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prueba_coppelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7386E86928E3662C00366B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7386E87F28E3663100366B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7386E88928E3663200366B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7386E86328E3662C00366B3B = {
+			isa = PBXGroup;
+			children = (
+				7386E86E28E3662C00366B3B /* prueba-coppel */,
+				7386E88528E3663100366B3B /* prueba-coppelTests */,
+				7386E88F28E3663200366B3B /* prueba-coppelUITests */,
+				7386E86D28E3662C00366B3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7386E86D28E3662C00366B3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7386E86C28E3662C00366B3B /* prueba-coppel.app */,
+				7386E88228E3663100366B3B /* prueba-coppelTests.xctest */,
+				7386E88C28E3663200366B3B /* prueba-coppelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7386E86E28E3662C00366B3B /* prueba-coppel */ = {
+			isa = PBXGroup;
+			children = (
+				7386E86F28E3662C00366B3B /* AppDelegate.swift */,
+				7386E87128E3662C00366B3B /* SceneDelegate.swift */,
+				7386E87328E3662C00366B3B /* ViewController.swift */,
+				7386E87528E3662C00366B3B /* Main.storyboard */,
+				7386E87828E3663100366B3B /* Assets.xcassets */,
+				7386E87A28E3663100366B3B /* LaunchScreen.storyboard */,
+				7386E87D28E3663100366B3B /* Info.plist */,
+			);
+			path = "prueba-coppel";
+			sourceTree = "<group>";
+		};
+		7386E88528E3663100366B3B /* prueba-coppelTests */ = {
+			isa = PBXGroup;
+			children = (
+				7386E88628E3663100366B3B /* prueba_coppelTests.swift */,
+			);
+			path = "prueba-coppelTests";
+			sourceTree = "<group>";
+		};
+		7386E88F28E3663200366B3B /* prueba-coppelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7386E89028E3663200366B3B /* prueba_coppelUITests.swift */,
+				7386E89228E3663200366B3B /* prueba_coppelUITestsLaunchTests.swift */,
+			);
+			path = "prueba-coppelUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7386E86B28E3662C00366B3B /* prueba-coppel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7386E89628E3663200366B3B /* Build configuration list for PBXNativeTarget "prueba-coppel" */;
+			buildPhases = (
+				7386E86828E3662C00366B3B /* Sources */,
+				7386E86928E3662C00366B3B /* Frameworks */,
+				7386E86A28E3662C00366B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "prueba-coppel";
+			productName = "prueba-coppel";
+			productReference = 7386E86C28E3662C00366B3B /* prueba-coppel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7386E88128E3663100366B3B /* prueba-coppelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7386E89928E3663200366B3B /* Build configuration list for PBXNativeTarget "prueba-coppelTests" */;
+			buildPhases = (
+				7386E87E28E3663100366B3B /* Sources */,
+				7386E87F28E3663100366B3B /* Frameworks */,
+				7386E88028E3663100366B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7386E88428E3663100366B3B /* PBXTargetDependency */,
+			);
+			name = "prueba-coppelTests";
+			productName = "prueba-coppelTests";
+			productReference = 7386E88228E3663100366B3B /* prueba-coppelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7386E88B28E3663200366B3B /* prueba-coppelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7386E89C28E3663200366B3B /* Build configuration list for PBXNativeTarget "prueba-coppelUITests" */;
+			buildPhases = (
+				7386E88828E3663200366B3B /* Sources */,
+				7386E88928E3663200366B3B /* Frameworks */,
+				7386E88A28E3663200366B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7386E88E28E3663200366B3B /* PBXTargetDependency */,
+			);
+			name = "prueba-coppelUITests";
+			productName = "prueba-coppelUITests";
+			productReference = 7386E88C28E3663200366B3B /* prueba-coppelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7386E86428E3662C00366B3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7386E86B28E3662C00366B3B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7386E88128E3663100366B3B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7386E86B28E3662C00366B3B;
+					};
+					7386E88B28E3663200366B3B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7386E86B28E3662C00366B3B;
+					};
+				};
+			};
+			buildConfigurationList = 7386E86728E3662C00366B3B /* Build configuration list for PBXProject "prueba-coppel" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7386E86328E3662C00366B3B;
+			productRefGroup = 7386E86D28E3662C00366B3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7386E86B28E3662C00366B3B /* prueba-coppel */,
+				7386E88128E3663100366B3B /* prueba-coppelTests */,
+				7386E88B28E3663200366B3B /* prueba-coppelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7386E86A28E3662C00366B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7386E87C28E3663100366B3B /* LaunchScreen.storyboard in Resources */,
+				7386E87928E3663100366B3B /* Assets.xcassets in Resources */,
+				7386E87728E3662C00366B3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7386E88028E3663100366B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7386E88A28E3663200366B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7386E86828E3662C00366B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7386E87428E3662C00366B3B /* ViewController.swift in Sources */,
+				7386E87028E3662C00366B3B /* AppDelegate.swift in Sources */,
+				7386E87228E3662C00366B3B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7386E87E28E3663100366B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7386E88728E3663100366B3B /* prueba_coppelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7386E88828E3663200366B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7386E89328E3663200366B3B /* prueba_coppelUITestsLaunchTests.swift in Sources */,
+				7386E89128E3663200366B3B /* prueba_coppelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7386E88428E3663100366B3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7386E86B28E3662C00366B3B /* prueba-coppel */;
+			targetProxy = 7386E88328E3663100366B3B /* PBXContainerItemProxy */;
+		};
+		7386E88E28E3663200366B3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7386E86B28E3662C00366B3B /* prueba-coppel */;
+			targetProxy = 7386E88D28E3663200366B3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7386E87528E3662C00366B3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7386E87628E3662C00366B3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7386E87A28E3663100366B3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7386E87B28E3663100366B3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7386E89428E3663200366B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7386E89528E3663200366B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7386E89728E3663200366B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45AU7KPNYZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "prueba-coppel/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ivansf.prueba-coppel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7386E89828E3663200366B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45AU7KPNYZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "prueba-coppel/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ivansf.prueba-coppel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7386E89A28E3663200366B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45AU7KPNYZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ivansf.prueba-coppelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prueba-coppel.app/prueba-coppel";
+			};
+			name = Debug;
+		};
+		7386E89B28E3663200366B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45AU7KPNYZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ivansf.prueba-coppelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prueba-coppel.app/prueba-coppel";
+			};
+			name = Release;
+		};
+		7386E89D28E3663200366B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45AU7KPNYZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ivansf.prueba-coppelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "prueba-coppel";
+			};
+			name = Debug;
+		};
+		7386E89E28E3663200366B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45AU7KPNYZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ivansf.prueba-coppelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "prueba-coppel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7386E86728E3662C00366B3B /* Build configuration list for PBXProject "prueba-coppel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7386E89428E3663200366B3B /* Debug */,
+				7386E89528E3663200366B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7386E89628E3663200366B3B /* Build configuration list for PBXNativeTarget "prueba-coppel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7386E89728E3663200366B3B /* Debug */,
+				7386E89828E3663200366B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7386E89928E3663200366B3B /* Build configuration list for PBXNativeTarget "prueba-coppelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7386E89A28E3663200366B3B /* Debug */,
+				7386E89B28E3663200366B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7386E89C28E3663200366B3B /* Build configuration list for PBXNativeTarget "prueba-coppelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7386E89D28E3663200366B3B /* Debug */,
+				7386E89E28E3663200366B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7386E86428E3662C00366B3B /* Project object */;
+}
