@@ -7,15 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12827ADC0C78539645CC18DD /* Pods_prueba_coppel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704906F756B9520CCCCB79FC /* Pods_prueba_coppel.framework */; };
 		7386E87028E3662C00366B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E86F28E3662C00366B3B /* AppDelegate.swift */; };
 		7386E87228E3662C00366B3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E87128E3662C00366B3B /* SceneDelegate.swift */; };
-		7386E87428E3662C00366B3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E87328E3662C00366B3B /* ViewController.swift */; };
 		7386E87728E3662C00366B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7386E87528E3662C00366B3B /* Main.storyboard */; };
 		7386E87928E3663100366B3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7386E87828E3663100366B3B /* Assets.xcassets */; };
 		7386E87C28E3663100366B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7386E87A28E3663100366B3B /* LaunchScreen.storyboard */; };
 		7386E88728E3663100366B3B /* prueba_coppelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E88628E3663100366B3B /* prueba_coppelTests.swift */; };
 		7386E89128E3663200366B3B /* prueba_coppelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E89028E3663200366B3B /* prueba_coppelUITests.swift */; };
 		7386E89328E3663200366B3B /* prueba_coppelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E89228E3663200366B3B /* prueba_coppelUITestsLaunchTests.swift */; };
+		7386E8A628E36DBB00366B3B /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8A028E36DBB00366B3B /* LoginPresenter.swift */; };
+		7386E8A728E36DBB00366B3B /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8A128E36DBB00366B3B /* LoginRouter.swift */; };
+		7386E8A828E36DBB00366B3B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8A228E36DBB00366B3B /* LoginViewController.swift */; };
+		7386E8A928E36DBB00366B3B /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8A328E36DBB00366B3B /* LoginProtocols.swift */; };
+		7386E8AA28E36DBB00366B3B /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8A428E36DBB00366B3B /* LoginInteractor.swift */; };
+		7386E8B328E37B6800366B3B /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8AD28E37B6800366B3B /* HomePresenter.swift */; };
+		7386E8B428E37B6800366B3B /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8AE28E37B6800366B3B /* HomeRouter.swift */; };
+		7386E8B528E37B6800366B3B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8AF28E37B6800366B3B /* HomeViewController.swift */; };
+		7386E8B628E37B6800366B3B /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8B028E37B6800366B3B /* HomeProtocols.swift */; };
+		7386E8B728E37B6800366B3B /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8B128E37B6800366B3B /* HomeInteractor.swift */; };
+		7386E8BE28E3BD6900366B3B /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8BD28E3BD6900366B3B /* HomeCollectionViewCell.swift */; };
+		7386E8C028E3C07500366B3B /* HomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8BF28E3C07500366B3B /* HomeEntity.swift */; };
+		7386E8C328E3E0BD00366B3B /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8C228E3E0BC00366B3B /* Date+Extension.swift */; };
+		7386E8C528E3E76800366B3B /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8C428E3E76800366B3B /* Image+Extension.swift */; };
+		7386E8CD28E4993500366B3B /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8C728E4993400366B3B /* DetailPresenter.swift */; };
+		7386E8CE28E4993500366B3B /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8C828E4993400366B3B /* DetailRouter.swift */; };
+		7386E8CF28E4993500366B3B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8C928E4993400366B3B /* DetailViewController.swift */; };
+		7386E8D028E4993500366B3B /* DetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8CA28E4993400366B3B /* DetailProtocols.swift */; };
+		7386E8D128E4993500366B3B /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8CB28E4993400366B3B /* DetailInteractor.swift */; };
+		7386E8DA28E4996100366B3B /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8D428E4996100366B3B /* ProfilePresenter.swift */; };
+		7386E8DB28E4996100366B3B /* ProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8D528E4996100366B3B /* ProfileRouter.swift */; };
+		7386E8DC28E4996100366B3B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8D628E4996100366B3B /* ProfileViewController.swift */; };
+		7386E8DD28E4996100366B3B /* ProfileProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8D728E4996100366B3B /* ProfileProtocols.swift */; };
+		7386E8DE28E4996100366B3B /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8D828E4996100366B3B /* ProfileInteractor.swift */; };
+		7386E8E128E4A8A300366B3B /* DetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8E028E4A8A300366B3B /* DetailEntity.swift */; };
+		7386E8E428E4F44A00366B3B /* PersonalDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8E328E4F44A00366B3B /* PersonalDataBase.swift */; };
+		7386E8E628E51A6C00366B3B /* UiColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8E528E51A6C00366B3B /* UiColor+Extension.swift */; };
+		7386E8E828E52FCE00366B3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7386E8E728E52FCE00366B3B /* GoogleService-Info.plist */; };
+		7387846828E5373D00CE9434 /* UiViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387846728E5373D00CE9434 /* UiViewController+Extension.swift */; };
+		7387846B28E53C1C00CE9434 /* ViewOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387846A28E53C1C00CE9434 /* ViewOverlay.swift */; };
+		7387846F28E53D4300CE9434 /* UiView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387846E28E53D4300CE9434 /* UiView+Constraints.swift */; };
+		7387847128E53FE200CE9434 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 7387847028E53FE200CE9434 /* loading.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +68,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112C5FB2EDD9F2A4ABA0BBEE /* Pods-prueba-coppel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba-coppel.release.xcconfig"; path = "Target Support Files/Pods-prueba-coppel/Pods-prueba-coppel.release.xcconfig"; sourceTree = "<group>"; };
+		704906F756B9520CCCCB79FC /* Pods_prueba_coppel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_prueba_coppel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7386E86C28E3662C00366B3B /* prueba-coppel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "prueba-coppel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7386E86F28E3662C00366B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7386E87128E3662C00366B3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7386E87328E3662C00366B3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7386E87628E3662C00366B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7386E87828E3663100366B3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7386E87B28E3663100366B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +82,39 @@
 		7386E88C28E3663200366B3B /* prueba-coppelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "prueba-coppelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7386E89028E3663200366B3B /* prueba_coppelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prueba_coppelUITests.swift; sourceTree = "<group>"; };
 		7386E89228E3663200366B3B /* prueba_coppelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prueba_coppelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7386E8A028E36DBB00366B3B /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		7386E8A128E36DBB00366B3B /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		7386E8A228E36DBB00366B3B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7386E8A328E36DBB00366B3B /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+		7386E8A428E36DBB00366B3B /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		7386E8AD28E37B6800366B3B /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		7386E8AE28E37B6800366B3B /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		7386E8AF28E37B6800366B3B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7386E8B028E37B6800366B3B /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		7386E8B128E37B6800366B3B /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		7386E8BD28E3BD6900366B3B /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		7386E8BF28E3C07500366B3B /* HomeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEntity.swift; sourceTree = "<group>"; };
+		7386E8C228E3E0BC00366B3B /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		7386E8C428E3E76800366B3B /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
+		7386E8C728E4993400366B3B /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		7386E8C828E4993400366B3B /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		7386E8C928E4993400366B3B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7386E8CA28E4993400366B3B /* DetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProtocols.swift; sourceTree = "<group>"; };
+		7386E8CB28E4993400366B3B /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		7386E8D428E4996100366B3B /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		7386E8D528E4996100366B3B /* ProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
+		7386E8D628E4996100366B3B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7386E8D728E4996100366B3B /* ProfileProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileProtocols.swift; sourceTree = "<group>"; };
+		7386E8D828E4996100366B3B /* ProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
+		7386E8E028E4A8A300366B3B /* DetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEntity.swift; sourceTree = "<group>"; };
+		7386E8E328E4F44A00366B3B /* PersonalDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataBase.swift; sourceTree = "<group>"; };
+		7386E8E528E51A6C00366B3B /* UiColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiColor+Extension.swift"; sourceTree = "<group>"; };
+		7386E8E728E52FCE00366B3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7387846728E5373D00CE9434 /* UiViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiViewController+Extension.swift"; sourceTree = "<group>"; };
+		7387846A28E53C1C00CE9434 /* ViewOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOverlay.swift; sourceTree = "<group>"; };
+		7387846E28E53D4300CE9434 /* UiView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiView+Constraints.swift"; sourceTree = "<group>"; };
+		7387847028E53FE200CE9434 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		89BDF755AB958BA04BC7FFB3 /* Pods-prueba-coppel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba-coppel.debug.xcconfig"; path = "Target Support Files/Pods-prueba-coppel/Pods-prueba-coppel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12827ADC0C78539645CC18DD /* Pods_prueba_coppel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +143,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5605C58D10817044DC5243F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89BDF755AB958BA04BC7FFB3 /* Pods-prueba-coppel.debug.xcconfig */,
+				112C5FB2EDD9F2A4ABA0BBEE /* Pods-prueba-coppel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7386E86328E3662C00366B3B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +159,8 @@
 				7386E88528E3663100366B3B /* prueba-coppelTests */,
 				7386E88F28E3663200366B3B /* prueba-coppelUITests */,
 				7386E86D28E3662C00366B3B /* Products */,
+				5605C58D10817044DC5243F1 /* Pods */,
+				852C0FA968D6791735A44A55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +177,17 @@
 		7386E86E28E3662C00366B3B /* prueba-coppel */ = {
 			isa = PBXGroup;
 			children = (
-				7386E86F28E3662C00366B3B /* AppDelegate.swift */,
-				7386E87128E3662C00366B3B /* SceneDelegate.swift */,
-				7386E87328E3662C00366B3B /* ViewController.swift */,
-				7386E87528E3662C00366B3B /* Main.storyboard */,
-				7386E87828E3663100366B3B /* Assets.xcassets */,
-				7386E87A28E3663100366B3B /* LaunchScreen.storyboard */,
+				7387846928E53C0A00CE9434 /* Loading */,
+				7386E8E228E4F41E00366B3B /* LocalStorage */,
+				7386E8D328E4994400366B3B /* Profile */,
+				7386E8C628E4991800366B3B /* Detail */,
+				7386E8C128E3E0A800366B3B /* Extensions */,
+				7386E8BA28E3B3A500366B3B /* Lifecycle */,
+				7386E8AC28E37B3600366B3B /* Home */,
+				7386E89F28E36DA900366B3B /* Login */,
+				7386E8BB28E3B3EB00366B3B /* Resources */,
 				7386E87D28E3663100366B3B /* Info.plist */,
+				7386E8E728E52FCE00366B3B /* GoogleService-Info.plist */,
 			);
 			path = "prueba-coppel";
 			sourceTree = "<group>";
@@ -127,6 +209,121 @@
 			path = "prueba-coppelUITests";
 			sourceTree = "<group>";
 		};
+		7386E89F28E36DA900366B3B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7386E8A028E36DBB00366B3B /* LoginPresenter.swift */,
+				7386E8A128E36DBB00366B3B /* LoginRouter.swift */,
+				7386E8A228E36DBB00366B3B /* LoginViewController.swift */,
+				7386E8A328E36DBB00366B3B /* LoginProtocols.swift */,
+				7386E8A428E36DBB00366B3B /* LoginInteractor.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7386E8AC28E37B3600366B3B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7386E8AF28E37B6800366B3B /* HomeViewController.swift */,
+				7386E8B128E37B6800366B3B /* HomeInteractor.swift */,
+				7386E8AD28E37B6800366B3B /* HomePresenter.swift */,
+				7386E8BF28E3C07500366B3B /* HomeEntity.swift */,
+				7386E8AE28E37B6800366B3B /* HomeRouter.swift */,
+				7386E8B028E37B6800366B3B /* HomeProtocols.swift */,
+				7386E8BC28E3BD3E00366B3B /* CollectionViewCell */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7386E8BA28E3B3A500366B3B /* Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				7386E86F28E3662C00366B3B /* AppDelegate.swift */,
+				7386E87128E3662C00366B3B /* SceneDelegate.swift */,
+			);
+			path = Lifecycle;
+			sourceTree = "<group>";
+		};
+		7386E8BB28E3B3EB00366B3B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7387847028E53FE200CE9434 /* loading.json */,
+				7386E87A28E3663100366B3B /* LaunchScreen.storyboard */,
+				7386E87528E3662C00366B3B /* Main.storyboard */,
+				7386E87828E3663100366B3B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7386E8BC28E3BD3E00366B3B /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7386E8BD28E3BD6900366B3B /* HomeCollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		7386E8C128E3E0A800366B3B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7386E8C228E3E0BC00366B3B /* Date+Extension.swift */,
+				7386E8C428E3E76800366B3B /* Image+Extension.swift */,
+				7386E8E528E51A6C00366B3B /* UiColor+Extension.swift */,
+				7387846728E5373D00CE9434 /* UiViewController+Extension.swift */,
+				7387846E28E53D4300CE9434 /* UiView+Constraints.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7386E8C628E4991800366B3B /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				7386E8C928E4993400366B3B /* DetailViewController.swift */,
+				7386E8CB28E4993400366B3B /* DetailInteractor.swift */,
+				7386E8C728E4993400366B3B /* DetailPresenter.swift */,
+				7386E8E028E4A8A300366B3B /* DetailEntity.swift */,
+				7386E8C828E4993400366B3B /* DetailRouter.swift */,
+				7386E8CA28E4993400366B3B /* DetailProtocols.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		7386E8D328E4994400366B3B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7386E8D628E4996100366B3B /* ProfileViewController.swift */,
+				7386E8D828E4996100366B3B /* ProfileInteractor.swift */,
+				7386E8D428E4996100366B3B /* ProfilePresenter.swift */,
+				7386E8D528E4996100366B3B /* ProfileRouter.swift */,
+				7386E8D728E4996100366B3B /* ProfileProtocols.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		7386E8E228E4F41E00366B3B /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				7386E8E328E4F44A00366B3B /* PersonalDataBase.swift */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		7387846928E53C0A00CE9434 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				7387846A28E53C1C00CE9434 /* ViewOverlay.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		852C0FA968D6791735A44A55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				704906F756B9520CCCCB79FC /* Pods_prueba_coppel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +331,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7386E89628E3663200366B3B /* Build configuration list for PBXNativeTarget "prueba-coppel" */;
 			buildPhases = (
+				03D829A602FBFB39FE8B13FB /* [CP] Check Pods Manifest.lock */,
 				7386E86828E3662C00366B3B /* Sources */,
 				7386E86928E3662C00366B3B /* Frameworks */,
 				7386E86A28E3662C00366B3B /* Resources */,
+				C5F234F445F54A9AB23ABB27 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +431,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7386E87C28E3663100366B3B /* LaunchScreen.storyboard in Resources */,
+				7386E8E828E52FCE00366B3B /* GoogleService-Info.plist in Resources */,
 				7386E87928E3663100366B3B /* Assets.xcassets in Resources */,
 				7386E87728E3662C00366B3B /* Main.storyboard in Resources */,
+				7387847128E53FE200CE9434 /* loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +454,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03D829A602FBFB39FE8B13FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-prueba-coppel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5F234F445F54A9AB23ABB27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-prueba-coppel/Pods-prueba-coppel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-prueba-coppel/Pods-prueba-coppel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-prueba-coppel/Pods-prueba-coppel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7386E86828E3662C00366B3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7386E87428E3662C00366B3B /* ViewController.swift in Sources */,
+				7386E8DA28E4996100366B3B /* ProfilePresenter.swift in Sources */,
+				7386E8A828E36DBB00366B3B /* LoginViewController.swift in Sources */,
+				7387846828E5373D00CE9434 /* UiViewController+Extension.swift in Sources */,
+				7386E8A928E36DBB00366B3B /* LoginProtocols.swift in Sources */,
+				7386E8A628E36DBB00366B3B /* LoginPresenter.swift in Sources */,
+				7386E8DD28E4996100366B3B /* ProfileProtocols.swift in Sources */,
+				7386E8B628E37B6800366B3B /* HomeProtocols.swift in Sources */,
+				7386E8AA28E36DBB00366B3B /* LoginInteractor.swift in Sources */,
+				7386E8DC28E4996100366B3B /* ProfileViewController.swift in Sources */,
+				7386E8C328E3E0BD00366B3B /* Date+Extension.swift in Sources */,
+				7386E8BE28E3BD6900366B3B /* HomeCollectionViewCell.swift in Sources */,
+				7386E8DE28E4996100366B3B /* ProfileInteractor.swift in Sources */,
+				7386E8DB28E4996100366B3B /* ProfileRouter.swift in Sources */,
 				7386E87028E3662C00366B3B /* AppDelegate.swift in Sources */,
+				7386E8D028E4993500366B3B /* DetailProtocols.swift in Sources */,
+				7387846F28E53D4300CE9434 /* UiView+Constraints.swift in Sources */,
+				7386E8B728E37B6800366B3B /* HomeInteractor.swift in Sources */,
+				7386E8B328E37B6800366B3B /* HomePresenter.swift in Sources */,
+				7386E8E128E4A8A300366B3B /* DetailEntity.swift in Sources */,
+				7386E8CF28E4993500366B3B /* DetailViewController.swift in Sources */,
+				7386E8E628E51A6C00366B3B /* UiColor+Extension.swift in Sources */,
+				7386E8E428E4F44A00366B3B /* PersonalDataBase.swift in Sources */,
+				7386E8C028E3C07500366B3B /* HomeEntity.swift in Sources */,
+				7386E8C528E3E76800366B3B /* Image+Extension.swift in Sources */,
+				7386E8B528E37B6800366B3B /* HomeViewController.swift in Sources */,
+				7386E8A728E36DBB00366B3B /* LoginRouter.swift in Sources */,
 				7386E87228E3662C00366B3B /* SceneDelegate.swift in Sources */,
+				7386E8CE28E4993500366B3B /* DetailRouter.swift in Sources */,
+				7387846B28E53C1C00CE9434 /* ViewOverlay.swift in Sources */,
+				7386E8D128E4993500366B3B /* DetailInteractor.swift in Sources */,
+				7386E8B428E37B6800366B3B /* HomeRouter.swift in Sources */,
+				7386E8CD28E4993500366B3B /* DetailPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +706,7 @@
 		};
 		7386E89728E3663200366B3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89BDF755AB958BA04BC7FFB3 /* Pods-prueba-coppel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +735,7 @@
 		};
 		7386E89828E3663200366B3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112C5FB2EDD9F2A4ABA0BBEE /* Pods-prueba-coppel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

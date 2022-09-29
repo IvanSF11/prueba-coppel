@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>866055941683-jjfq9c0ilcnd8hvn279khu2pf8vprnmi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.866055941683-jjfq9c0ilcnd8hvn279khu2pf8vprnmi</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDih5QjvigjLjCpqX9Alt5BTWfJmcz-W5s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>866055941683</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ivansf.prueba-coppel</string>
+	<key>PROJECT_ID</key>
+	<string>prueba-coppel-8ab5b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>prueba-coppel-8ab5b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:866055941683:ios:93d82c7356a26817afbd46</string>
+</dict>
+</plist>

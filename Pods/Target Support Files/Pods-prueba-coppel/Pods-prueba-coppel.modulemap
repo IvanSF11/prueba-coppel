@@ -1,0 +1,6 @@
+framework module Pods_prueba_coppel {
+  umbrella header "Pods-prueba-coppel-umbrella.h"
+
+  export *
+  module * { export * }
+}
